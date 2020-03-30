@@ -1,28 +1,29 @@
-📢 Use this project, [contribute](https://github.com/vtex-apps/CHANGEME) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+📢 Use this project, [contribute](https://github.com/vtex-apps/google-customer-reviews) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-# APP NAME
+# Google Customer Reviews
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Under the app's name, you should explain the topic, giving a **brief description** of the **app's functionality** (what is it for?) in a store.
+Google Customer Reviews is a free service that enables Google to collect valuable feedback from customers who’ve made a purchase on your site.
 
-Next, you can **add media** (either an image of a GIF) if possible, so that users can better understand how the app works in practice. 
-
-![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
+![Google Customer Reviews](https://user-images.githubusercontent.com/284515/77966799-2052c400-72ba-11ea-91c1-0aead30cad59.png)
 
 ## Configuration
 
-In this section, you first must **add the primary instructions** that will allow users to use the app in their store, such as [installing the app](https://vtex.io/docs/recipes/store/installing-an-app) and configuring it using the account's admin. 
+1. [Install the app](https://vtex.io/docs/recipes/store/installing-an-app) vtex.google-customer-reviews
 
-Remember to also **showcase any necessary disclaimer** related to the app in this section, such as the different behavior it may display during its configuration. 
+2. Open the app settings
 
-## Modus Operandi *(not mandatory)*
+3. Add your Merchant Center ID. You can get this value from the Google Merchant Center.
 
-There are scenarios in which an app can behave differently in a store, according to its configuration. It's crucial then to go through these **behavioral changes** in this section, allowing users to fully understand the **practical application** of the app in their store.
+4. Click Save.
 
-If you feel compelled to give further details, such as the app's **relationship with others**, don't hesitate to use this section. 
+
+## Troubleshooting
+
+This app only works on the same website URL as the one verified and claimed in Merchant Center. This issue typically generates a 404 javascript error.
 
 ## Contributors ✨
 
