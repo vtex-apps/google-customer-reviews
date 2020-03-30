@@ -22,7 +22,9 @@ export function handleEvents(e: PixelMessage) {
       const showBadge = window.__google_customer_reviews.showBadge
       const badgePosition = window.__google_customer_reviews.badgePosition
 
-      const shippingEstimateDate = new Date()
+      const shippingEstimateDate = new Date(
+        data.transactionLatestShippingEstimate
+      )
       const estimate = shippingEstimateDate.toISOString().slice(0, 10)
 
       window.renderOptIn = function() {
