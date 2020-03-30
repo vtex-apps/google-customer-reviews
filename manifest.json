@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
+  "name": "google-customer-reviews",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Google Customer Reviews",
+  "description": "",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -21,13 +21,60 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Google Customer Reviews",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "merchantId": {
+        "title": "Merchant ID",
         "type": "string"
+      },
+      "passGtin": {
+        "title": "Pass GTINs",
+        "type": "boolean",
+        "default": true
+      },
+      "optInStyle": {
+        "title": "Opt-in style",
+        "description": "Specifies how the opt-in module's dialog box is displayed",
+        "type": "string",
+        "default": "CENTER_DIALOG",
+        "enum": [
+          "CENTER_DIALOG",
+          "BOTTOM_RIGHT_DIALOG",
+          "BOTTOM_LEFT_DIALOG",
+          "TOP_RIGHT_DIALOG",
+          "TOP_LEFT_DIALOG",
+          "BOTTOM_TRAY"
+        ],
+        "enumNames": [
+          "Center",
+          "Bottom right",
+          "Bottom left",
+          "Top right",
+          "Top left",
+          "Bottom"
+        ]
+      },
+      "showBadge": {
+        "title": "Show badge",
+        "type": "boolean",
+        "default": true
+      },
+      "badgePosition": {
+        "title": "Badge position",
+        "description": "Renders the badge in one of the following locations",
+        "type": "string",
+        "default": "BOTTOM_RIGHT",
+        "enum": [
+          "BOTTOM_RIGHT",
+          "BOTTOM_LEFT",
+          "INLINE"
+        ],
+        "enumNames": [
+          "Float in the bottom right",
+          "Float in the bottom left",
+          "Block position"
+        ]
       }
     }
   },
