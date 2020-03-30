@@ -16,7 +16,9 @@ Google Customer Reviews is a free service that enables Google to collect valuabl
 
 2. Open the app settings
 
-3. Add your Merchant Center ID. You can get this value from the Google Merchant Center and Save.
+3. Add your Merchant Center ID. You can get this value from the Google Merchant Center.
+
+4. Click Save.
 
 
 ## Troubleshooting
