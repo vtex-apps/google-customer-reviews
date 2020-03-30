@@ -8,7 +8,7 @@
 
 Google Customer Reviews is a free service that enables Google to collect valuable feedback from customers who’ve made a purchase on your site.
 
-![Google Customer Reviews](https://user-images.githubusercontent.com/284515/77966799-2052c400-72ba-11ea-91c1-0aead30cad59.png)
+![Google Customer Reviews](https://user-images.githubusercontent.com/284515/77967280-31500500-72bb-11ea-9e71-b3abf8d677df.png)
 
 ## Configuration
 
