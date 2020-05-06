@@ -2,32 +2,35 @@
 
 # Google Customer Reviews
 
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 
-Google Customer Reviews is a free service that enables Google to collect valuable feedback from customers who’ve made a purchase on your site.
+This is a first party integration app for Google Customer Reviews, a free service that enables Google to collect valuable feedback from customers who’ve made a purchase on your site.
 
 ![Google Customer Reviews](https://user-images.githubusercontent.com/284515/77967280-31500500-72bb-11ea-9e71-b3abf8d677df.png)
 
 ## Configuration
 
-1. [Install the app](https://vtex.io/docs/recipes/store/installing-an-app) vtex.google-customer-reviews
+1. [Install](https://vtex.io/docs/recipes/store/installing-an-app) the `vtex.google-customer-reviews` app;
+2. In your VTEX account's admin, open the **App** section and select the Cookiebot App box;
+3. Add your **Merchant Center ID**. You can get this value from the [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/;
+4. Save your changes.
 
-2. Open the app settings
+### Troubleshooting
 
-3. Add your Merchant Center ID. You can get this value from the Google Merchant Center.
+This app only works with the website URL verified and claimed in Merchant Center. When the website URL is not verified, a 404 javascript error is generated.
 
-4. Click Save.
+<!-- DOCS-IGNORE:start -->
 
-
-## Troubleshooting
-
-This app only works on the same website URL as the one verified and claimed in Merchant Center. This issue typically generates a 404 javascript error.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -36,4 +39,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
+<!-- DOCS-IGNORE:end -->
+
+
