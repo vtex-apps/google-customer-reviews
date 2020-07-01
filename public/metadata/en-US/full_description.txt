@@ -12,9 +12,9 @@ The information collected can be useful for monitoring, through the Google Merch
 
 ## How to set up
 
-1 - Install the app from VTEX App Store;
-2 - Add your Merchant Center ID. You can get this value from the [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/);
-3 - Save your changes.
+1. Install the app from VTEX App Store;
+2. Add your Merchant Center ID. You can get this value from the [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/);
+3. Save your changes.
 
 ## Comments
 

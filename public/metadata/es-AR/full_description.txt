@@ -12,9 +12,9 @@ La información recopilada puede ser útil para monitorear, a través del Centro
 
 ## Cómo configurar
 
-1 - Instala la aplicación desde VTEX App Store;
-2 - Agregue su Merchant Center ID. Puede obtener este valor en [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/);
-3 - Guarda tus cambios.
+1. Instala la aplicación desde VTEX App Store;
+2. Agregue su Merchant Center ID. Puede obtener este valor en [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/);
+3. Guarda tus cambios.
 
 ## Comentarios
 
