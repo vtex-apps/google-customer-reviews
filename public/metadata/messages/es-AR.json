@@ -1,0 +1,11 @@
+{
+  "name": "title.txt",
+  "headline": "short_description.txt",
+  "overview": "## Sobre (sempre o primeiro), separar por \n",
+  "features": ["# Funcionalidades"],
+  "additionalInformation": "## Comentários",
+  "websiteURL": "https://vtex.com/",
+  "support": {
+	  "url": "https://support.vtex.com/hc/requests"
+  }
+}
