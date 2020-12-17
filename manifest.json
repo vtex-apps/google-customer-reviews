@@ -1,7 +1,7 @@
 {
   "name": "google-customer-reviews",
   "vendor": "vtex",
-  "version": "1.0.8-beta.0",
+  "version": "1.0.8-beta.1",
   "title": "Google Customer Reviews",
   "description": "This application allows Google to collect and post comments from customers who have made a purchase on your website.",
   "billingOptions": {
