@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { useCssHandles } from 'vtex.css-handles'
 
 import { addScript } from './modules/addScript'
 
@@ -23,12 +24,18 @@ window.renderGoogleInlineBadge = function() {
   })
 }
 
+const CSS_HANDLES = ['badge'] as const
+
 function Badge() {
+  const { handles } = useCssHandles(CSS_HANDLES)
+
   useEffect(() => {
     addScript('renderGoogleInlineBadge')
   }, [])
 
-  return <div id="google-customer-reviews-badge"></div>
+  return (
+    <div id="google-customer-reviews-badge" className={handles.badge}></div>
+  )
 }
 
 export default Badge
