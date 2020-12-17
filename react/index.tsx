@@ -2,14 +2,7 @@
 import { canUseDOM } from 'vtex.render-runtime'
 import { PixelMessage } from './typings/events'
 import { getCountryISO2 } from './modules/iso-3-to-2'
-
-function addScript() {
-  const script = document.createElement('script')
-  script.async = true
-  script.defer = true
-  script.src = 'https://apis.google.com/js/platform.js?onload=renderOptIn'
-  document.body.appendChild(script)
-}
+import { addScript } from './modules/addScript'
 
 export function handleEvents(e: PixelMessage) {
   switch (e.data.eventName) {
@@ -62,7 +55,8 @@ export function handleEvents(e: PixelMessage) {
         })
       }
 
-      addScript()
+      addScript('renderOptIn')
+      return
     }
     default: {
       return
